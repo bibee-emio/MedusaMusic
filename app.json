@@ -1,0 +1,56 @@
+{
+    "name":"MedusaMusic🎵",
+    "description":"A Telegram bot for Download songs in mp3 format from YouTube and Extract lyrics from Genius.com ❤️",
+    "keywords": [
+        "Python",
+        "Telegram-bot",
+        "Pyrogram",
+        "PyTube",
+        "Music-bot",
+        "Lyrics",
+        "Genius",
+        "heroku",
+        "Bibee-Emio"
+      ],
+    "repository":"https://github.com/bibee-emio/MedusaMusic.git",
+    "logo":"https://telegra.ph/file/d5aa388f60d4b40f84eaa.jpg",
+    "stack":"heroku-20",
+    "image":"heroku/python",
+    "success_url":"https://t.me/MedusaMousikibot",
+    "env":{
+        "BOT_TOKEN":{
+            "description":"The bot token of your bot. You can get it from @BotFather Telegram",
+            "value":"",
+            "required":true
+        },
+        "API_HASH":{
+            "description":"Get your API Hash from https://my.telegram.org/auth",
+            "value":"",
+            "required":true
+        },
+        "API_ID":{
+            "description":"Get your API ID from https://my.telegram.org/auth",
+            "value":"",
+            "required":true
+        },
+        "GENIUS_API":{
+            "description":"Get your Genius API from https://docs.genius.com/",
+            "value":"",
+            "required":true
+        }
+    },
+    "buildpacks":[
+        {
+            "url":"heroku/python"
+        },
+        {
+            "url":"https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }        
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}

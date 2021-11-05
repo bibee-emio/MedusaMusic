@@ -1,0 +1,10 @@
+aiohttp==3.7.4.post0
+anyio==3.3.0Brotli==1.0.9
+ffmpeg==1.4
+ffmpeg-python==0.2.0
+ffprobe==0.5
+lyricsgenius==3.0.1
+Pyrogram==1.2.9
+pytube==11.0.1
+TgCrypto==1.2.2
+youtube-search-python==1.4.6
