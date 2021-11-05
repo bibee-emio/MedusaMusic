@@ -12,7 +12,7 @@
         "heroku",
         "Bibee-Emio"
       ],
-    "repository":"https://github.com/bibee-emio/MedusaMusic.git",
+    "repository": "https://github.com/bibee-emio/MedusaMusic",
     "logo":"https://telegra.ph/file/d5aa388f60d4b40f84eaa.jpg",
     "stack":"heroku-20",
     "image":"heroku/python",
