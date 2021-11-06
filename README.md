@@ -53,11 +53,11 @@
 
 - Clone the repo
 ```sh
-$ git clone https://github.com/bibee-emio/medusamusic
+$ git clone https://github.com/bibee-emio/MedusaMusic
 ```
 - Change the Directory
 ```sh
-$ cd medusamusic
+$ cd MedusaMusic
 ```
 - Install the requirements using pip
 ```sh
