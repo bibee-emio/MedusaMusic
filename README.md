@@ -1,4 +1,4 @@
-# MeudsaMusic
+# MedusaMusic
 
 <br>
 
@@ -11,13 +11,15 @@
 <img src="src/banner.png">
 </p>
 
-<p align="center">
+<p align="center"> 
+<img src="https://img.shields.io/badge/License-GPLv3-blue.svg"> 
+<img src="https://img.shields.io/badge/version-v2.3.1-important">
+<img src="https://img.shields.io/pypi/pyversions/pyrogram?color=yellow">
 <img src="https://img.shields.io/github/languages/count/bibee-emio/medusamusic">
 <img src="https://img.shields.io/github/languages/code-size/bibee-emio/medusamusic">
 <img src="https://img.shields.io/github/issues-raw/bibee-emio/medusamusic">
 <img src="https://img.shields.io/github/issues-pr/bibee-emio/medusamusic">
-<img src="https://img.shields.io/badge/version-v2.3.1-important">
-<img src="https://img.shields.io/pypi/pyversions/pyrogram?color=yellow">
+<img src="https://badgen.net/github/contributors/bibee-emio/medusamusic?color=green">  
 <img src="https://img.shields.io/github/last-commit/bibee-emio/medusamusic?color=blue">
 </p>
 <br>
@@ -77,7 +79,7 @@ $ python3 medusa.py
 
 <a href="https://heroku.com/deploy?template=https://github.com/bibee-emio/medusamusic">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"
-  style="padding:30px">
+  style="padding:35px">
 </a>
 
 ## Special Credits
@@ -85,6 +87,7 @@ $ python3 medusa.py
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
 - [PyTube](https://github.com/pytube)
 - [Genius.com](https://genius.com)
+
 
 <p align="center"><i>Fork the repo | Put a start | Follow me on github</i></p>
 <p align="center"><i>Thank You❤️</i></p>
