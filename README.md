@@ -82,8 +82,9 @@ $ python3 medusa.py
 
 ## Special Credits
 
-- [Pyrogram](@pyrogram)
+- [Pyrogram](https://github.com/pyrogram/pyrogram)
 - [PyTube](https://github.com/pytube)
 - [Genius.com](https://genius.com)
 
+<p align="center"><i>Fork the repo | Put a start | Follow me on github</i></p>
 <p align="center"><i>Thank You❤️</i></p>
