@@ -15,10 +15,7 @@ text = (
 descargar = Descargar('downloads/')
 
 @Medusa.on_message(
-    filters.command(
-        ['song'],
-        prefixes=['/', '!']
-    )
+    filters.command(['song'],prefixes=['/', '!'])
     & (filters.group | filters.private)
     & ~ filters.edited)
 async def song_dl(_, msg: Message):
