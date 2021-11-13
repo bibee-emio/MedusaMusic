@@ -9,10 +9,7 @@ from pyrogram.errors.exceptions.bad_request_400 import MessageTooLong
 api = genius.Genius(GENIUS_API,verbose=False)
 
 
-@Medusa.on_message(
-    filters.command(
-        ['lyrics','lyric'],
-        prefixes=['/','!']) 
+@Medusa.on_message(filters.command(['lyrics','lyric'],prefixes=['/','!']) 
     & (filters.group | filters.private) 
     & ~ filters.edited)
 async def lyrics(medusa:Medusa,msg: Message):
@@ -48,7 +45,7 @@ async def lyrics(medusa:Medusa,msg: Message):
             document=f'downloads/{lyric_title}.txt',
             thumb='src/Medusa320px.png',
             caption=f'\n__--{lyric_title}--__\n__{lyric_artist}__\n\n__Extracted by @MedusaMousikibot__'
-            )
+        )
 
         await r_text.delete()
         
