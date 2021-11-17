@@ -27,6 +27,8 @@ async def song_dl(_, msg: Message):
     url = msg.text.split(None, 1)[1]
     url = extract_the_url(url=url)
     
+    if url == 0:return await r_text.edit('I could not find that song. Try with another keywords...')
+
     await r_text.edit('Downloading...')
 
     ytinfo = descargar.mp3_viaPytube(url)
