@@ -15,9 +15,6 @@
 <img src="https://img.shields.io/badge/License-GPLv3-blue.svg"> 
 <img src="https://img.shields.io/badge/version-v2.3.1-important">
 <img src="https://img.shields.io/pypi/pyversions/pyrogram?color=yellow">
-<img src="https://img.shields.io/github/languages/count/bibee-emio/medusamusic">
-<img src="https://img.shields.io/github/languages/code-size/bibee-emio/medusamusic">
-<img src="https://tokei.rs/b1/github/bibee-emio/medusamusic">
 <img src="https://img.shields.io/github/issues-raw/bibee-emio/medusamusic">
 <img src="https://img.shields.io/github/issues-pr/bibee-emio/medusamusic">
 <img src="https://badgen.net/github/contributors/bibee-emio/medusamusic?color=green">  
