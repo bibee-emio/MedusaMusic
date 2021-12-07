@@ -36,8 +36,8 @@
 
 ## Run Locally
 
-<details>
-<summary>Requirements</summary>
+
+### Requirements
 
 - Python 3.8+
 - FFmpeg
@@ -45,7 +45,7 @@
 - Your Telegam API Hash & ID
 - Bot Token
 
-</details>
+
 
 <br>
 
