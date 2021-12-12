@@ -17,10 +17,10 @@ class Descargar:
             dl = yt.streams.filter(
                 only_audio=True
             ).first()
-
+            
             dl.download(
                 output_path=self.path,
-                filename=f'{yt.title}-{yt.video_id}.mp3'
+                filename=f'{yt.title.replace("/","|")}-{yt.video_id}.mp3'
             )
             
         
