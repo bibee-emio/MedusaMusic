@@ -72,7 +72,6 @@ $ python3 medusa.py
 <br>
 
 - Fork the repo
-- Edit the [`config.py`](config.py) with your own values
 - Just click the button below & follow the steps
 
 <a href="https://heroku.com/deploy?template=https://github.com/bibee-emio/medusamusic">
