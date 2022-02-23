@@ -31,7 +31,7 @@ async def song_dl(_, msg: Message):
 
     await r_text.edit('Downloading...')
 
-    ytinfo = descargar.mp3_viaPytube(url)
+    ytinfo = descargar.get_song(url)
 
     if ytinfo == 0:
         await r_text.edit(f'Something Wrong\n\n☕️Take a Coffee and come again... :(')
